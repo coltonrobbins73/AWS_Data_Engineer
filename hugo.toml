@@ -1,0 +1,117 @@
+baseURL = 'https://bio-recap.github.io/AWS_Data_Engineer/'
+languageCode = 'en-us'
+title = 'AWS Data Engineer'
+theme = 'study_blog_relearn'
+
+[menu]
+
+[[menu.shortcuts]]
+    name = "<i class='fas fa-book'></i> Back to compact directory"
+    url = 'https://compact-curriculum.github.io/Directory/materials/index.html'
+    weight = 11
+
+[[menu.shortcuts]]
+    identifier = 'ds'
+    name = "<i class='fab fa-fw fa-github'></i> GitHub"
+    url = 'https://github.com/compact-curriculum/'
+    weight = 12
+
+[params]
+  additionalContentLanguage = ['en']
+  alwaysopen = ''
+  breadcrumbSeparator = '>'
+  collapsibleMenu = true
+  customMathJaxURL = ''
+  customMermaidURL = ''
+  customOpenapiURL = ''
+  description = 'Documentation for Hugo Relearn Theme'
+  disableAssetsBusting = false
+  disableBreadcrumb = false
+  disableExplicitIndexURLs = false
+  disableGeneratorVersion = false
+  disableHoverBlockCopyToClipBoard = false
+  disableInlineCopyToClipBoard = true
+  disableLandingPageButton = true
+  disableLanguageSwitchingButton = false
+  disableMathJax = true
+  disableMermaid = true
+  disableNextPrev = false
+  disableOpenapi = true
+  disableRandomIds = false
+  disableRootBreadcrumb = true
+  disableSearch = false
+  disableSearchHiddenPages = false
+  disableSeoHiddenPages = true
+  disableShortcutsTitle = false
+  disableTagHiddenPages = false
+  disableTermBreadcrumbs = false
+  disableToc = false
+  editURL = ''
+  externalLinkTarget = '_blank'
+  highlightWrap = true
+  images = ['images/hero.png']
+  mathJaxInitialize = '{}'
+  mermaidInitialize = '{ "securityLevel": "loose" }'
+  mermaidZoom = true
+  ordersectionsby = 'weight'
+  showVisitedLinks = true
+  themeVariantAuto = ['relearn-dark', 'relearn-dark']
+  titleSeparator = '::'
+
+  [params.author]
+    name = 'Colton Robbins'
+
+  [params.image]
+    errorlevel = 'warning'
+
+  [params.imageEffects]
+    border = true
+    lightbox = true
+    shadow = true
+
+  [params.link]
+    errorlevel = 'warning'
+
+  [params.social]
+    facebook_admin = ''
+    twitter = ''
+
+[[params.themeVariant]]
+    auto = []
+    identifier = 'relearn-auto'
+    name = 'Relearn Light/Dark'
+
+[[params.themeVariant]]
+    identifier = 'relearn-light'
+
+[[params.themeVariant]]
+    identifier = 'relearn-dark'
+
+[[params.themeVariant]]
+    identifier = 'relearn-bright'
+
+[[params.themeVariant]]
+    auto = ['zen-light', 'zen-dark']
+    identifier = 'zen-auto'
+    name = 'Zen Light/Dark'
+
+[[params.themeVariant]]
+    identifier = 'zen-light'
+
+[[params.themeVariant]]
+    identifier = 'zen-dark'
+
+[[params.themeVariant]]
+    identifier = 'neon'
+
+[[params.themeVariant]]
+    identifier = 'learn'
+
+[[params.themeVariant]]
+    identifier = 'blue'
+
+[[params.themeVariant]]
+    identifier = 'green'
+
+[[params.themeVariant]]
+    identifier = 'red'

@@ -1,0 +1,3 @@
+[submodule "themes/study_blog_relearn"]
+	path = themes/study_blog_relearn
+	url = https://github.com/coltonrobbins73/study_blog_relearn.git
